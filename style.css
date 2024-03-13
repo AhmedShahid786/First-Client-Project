@@ -137,6 +137,12 @@
   background-color: black;
 }
 
+#cards {
+  height: 180dvh;
+  overflow: hidden;
+  background-color: black;
+}
+
 .row {
   /* border: 1px solid white; */
   height: 79dvh;
@@ -220,7 +226,7 @@
 /* Footer */
 
 .footer {
-  border: 1px solid white;
+  border-top: 1px solid white;
   background-color: #131212;
   margin: 0px;
   height: 65dvh;
@@ -229,7 +235,8 @@
 .footcol {
   /* border: 1px solid white; */
   color: white;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: white 1px 0 10px;
   text-align: center;
   line-height: 10dvh;
   padding: 0px;
@@ -243,6 +250,10 @@
   padding: 0px;
   list-style-type: none;
   font-size: 18px;
+}
+
+#email {
+  font-size: 7px;
 }
 
 .footcol a {
@@ -271,11 +282,71 @@
 }
 
 /* Responsives */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   #intro-Heading {
     font-size: 25px;
   }
+  #intro {
+    height: 120dvh;
+  }
   #intro-Cont {
-    height: 100dvh;
+    height: 115dvh;
+  }
+  #intro-Cont > div {
+    height: 103dvh;
+    font-size: 13px;
+  }
+
+  #cards {
+    height: 262dvh;
+  }
+  .row {
+    height: 120dvh;
+    margin: 0;
+  }
+  .row-heading {
+    height: 16dvh;
+  }
+  .col {
+    width: 50%;
+    margin-bottom: 5px;
+  }
+  .img > img {
+    width: 165px;
+  }
+  .EC {
+    margin: 0px;
+    font-size: 22px;
+    padding-bottom: 9px;
+  }
+  .EC > p {
+    margin-bottom: 24px !important;
+  }
+  .EC > button {
+    font-size: 16px;
+  }
+
+  .footcol {
+    line-height: 6dvh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-shadow: white 1px 0 10px;
+  }
+  .footcol > p {
+    font-size: 16px;
+  }
+  .footcol > ul {
+    font-size: 10px;
+  }
+  #email {
+    font-size: 7px;
+  }
+  #reachus img {
+    height: 15px;
+    width: 10px;
+    margin-right: 5px;
+  }
+  .footcol > iframe {
+    width: 80%;
+    height: 30%;
   }
 }
