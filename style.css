@@ -269,3 +269,13 @@
   width: 20px;
   margin-right: 5px;
 }
+
+/* Responsives */
+@media only screen and (max-width: 600px) {
+  #intro-Heading {
+    font-size: 25px;
+  }
+  #intro-Cont {
+    height: 100dvh;
+  }
+}
