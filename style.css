@@ -5,25 +5,19 @@
 }
 
 /* Navbar */
-#navdiv {
-  /* background: linear-gradient(to right, rgb(31, 174, 218), rgb(23, 202, 205)); */
-  background-color: white;
-  height: 13dvh;
-  z-index: 3;
-}
-
 #app-parent nav {
   font-family: "Nunito Sans", sans-serif;
   background-color: black;
   width: 100%;
-  z-index: 3;
+  border: 3px solid white;
+  border-left: 0;
+  border-right: 0;
 }
 
 #app-parent .nav-link {
   color: #ffffff;
   border: 0;
   font-size: 17px;
-  z-index: 3;
 }
 #app-parent .nav-link:hover {
   /* background-image: linear-gradient(
@@ -37,12 +31,10 @@
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  z-index: 3;
 }
 #app-parent .nav-link:active {
   font-size: 19px;
   color: white;
-  z-index: 3;
 }
 
 .btn-outline-warning {
@@ -50,13 +42,11 @@
   font-weight: 600;
   border: 1px solid white;
   border-radius: 40px;
-  z-index: 3;
 }
 .btn-outline-warning:hover {
   color: black;
   background-color: white;
   font-weight: 600;
-  z-index: 3;
 }
 
 #app-parent .navbar-brand {
@@ -66,20 +56,17 @@
   color: white;
   font-size: 22px;
   font-family: "Nunito Sans" sans-serif;
-  z-index: 3;
 }
+
 .navbar-brand:hover {
   color: white;
-  z-index: 3;
 }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("./Assets/sliders-solid\ \(1\).svg");
-  z-index: 3;
 }
 .navbar-light .navbar-toggler {
   border: 3px solid white;
-  z-index: 3;
 }
 /* Carousel */
 #carouselExampleIndicators {
