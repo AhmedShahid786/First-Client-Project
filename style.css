@@ -72,6 +72,10 @@
 #carouselExampleIndicators {
   height: 80dvh;
   overflow: hidden;
+  border: 3px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
 .carousel-item > img {
@@ -92,7 +96,11 @@
 /* Intro */
 #intro {
   /* border: 1px solid white; */
-  height: 85dvh;
+  height: 92dvh;
+  border: 3px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
 #intro-Heading {
@@ -135,6 +143,10 @@
   height: 180dvh;
   overflow: hidden;
   background-color: black;
+  border: 3px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
 #cards {
@@ -230,6 +242,10 @@
   background-color: #131212;
   margin: 0px;
   height: 65dvh;
+  border: 3px solid white;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
 .footcol {
@@ -262,7 +278,7 @@
 }
 
 .footcol a:hover {
-  font-size: 18px;
+  font-size: 19px;
   color: white;
   border: 2px solid white;
   border-left: 0;
@@ -283,29 +299,41 @@
 
 /* Responsives */
 @media only screen and (max-width: 576px) {
+  #intro {
+    height: 150dvh;
+    overflow: visible;
+  }
   #intro-Heading {
     font-size: 25px;
-  }
-  #intro {
-    height: 120dvh;
+    height: 8dvh;
   }
   #intro-Cont {
-    height: 115dvh;
+    height: 126dvh;
   }
   #intro-Cont > div {
-    height: 103dvh;
+    height: 126dvh;
+    padding: 15px;
     font-size: 13px;
+  }
+  #intro-Cont p {
+    margin: 0;
   }
 
   #cards {
-    height: 262dvh;
+    height: 266dvh;
+    overflow: visible;
   }
   .row {
-    height: 120dvh;
-    margin: 0;
+    height: 117dvh;
+    margin: 0px;
   }
   .row-heading {
-    height: 16dvh;
+    height: 20dvh;
+    padding: 0px !important;
+  }
+  .row-heading p {
+    font-size: 40px;
+    padding: 0;
   }
   .col {
     width: 50%;
@@ -313,6 +341,7 @@
   }
   .img > img {
     width: 165px;
+    height: 133px;
   }
   .EC {
     margin: 0px;
@@ -337,8 +366,22 @@
   .footcol > ul {
     font-size: 10px;
   }
+  .footcol a:hover {
+    font-size: 11px;
+    color: white;
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+  }
   #email {
     font-size: 7px;
+  }
+  #quick-links {
+    line-height: 10dvh;
+  }
+  #quick-links > ul {
+    font-size: 14px;
   }
   #reachus img {
     height: 15px;
@@ -347,6 +390,9 @@
   }
   .footcol > iframe {
     width: 80%;
-    height: 30%;
+    height: 45%;
+  }
+  .carousel-caption {
+    font-size: 12px;
   }
 }
