@@ -300,18 +300,18 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    height: 150dvh;
+    height: 108dvh;
     overflow: visible;
   }
   #intro-Heading {
     font-size: 25px;
-    height: 8dvh;
+    height: 6dvh;
   }
   #intro-Cont {
-    height: 126dvh;
+    height: 102dvh;
   }
   #intro-Cont > div {
-    height: 126dvh;
+    height: 102dvh;
     padding: 15px;
     font-size: 13px;
   }
@@ -320,11 +320,11 @@
   }
 
   #cards {
-    height: 336dvh;
+    height: 220dvh;
     overflow: visible;
   }
   .row {
-    height: 158dvh;
+    height: 100dvh;
     margin: 0px;
   }
   .row-heading {
