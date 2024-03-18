@@ -311,7 +311,7 @@
     height: 79dvh;
   }
   #intro-Cont > div {
-    height: 79dvh;
+    height: 100%;
     padding: 15px;
     font-size: 13px;
   }
@@ -356,7 +356,7 @@
   }
 
   .footcol {
-    line-height: 4dvh;
+    line-height: 5dvh;
     font-family: "Roboto Condensed", sans-serif;
     text-shadow: white 1px 0 10px;
   }
@@ -364,7 +364,7 @@
     font-size: 16px;
   }
   .footcol > ul {
-    font-size: 10px;
+    font-size: 13px;
   }
   .footcol a:hover {
     font-size: 11px;
