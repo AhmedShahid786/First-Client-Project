@@ -320,11 +320,11 @@
   }
 
   #cards {
-    height: 220dvh;
+    height: 224dvh;
     overflow: visible;
   }
   .row {
-    height: 100dvh;
+    height: 102dvh;
     margin: 0px;
   }
   .row-heading {
