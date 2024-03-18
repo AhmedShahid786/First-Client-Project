@@ -320,11 +320,11 @@
   }
 
   #cards {
-    height: 266dvh;
+    height: 336dvh;
     overflow: visible;
   }
   .row {
-    height: 117dvh;
+    height: 158dvh;
     margin: 0px;
   }
   .row-heading {
@@ -341,7 +341,7 @@
   }
   .img > img {
     width: 165px;
-    height: 133px;
+    height: 214px;
   }
   .EC {
     margin: 0px;
