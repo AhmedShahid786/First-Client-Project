@@ -300,7 +300,7 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    height: 80dvh;
+    height: 85dvh;
     overflow: visible;
   }
   #intro-Heading {
@@ -308,10 +308,10 @@
     height: 6dvh;
   }
   #intro-Cont {
-    height: 74dvh;
+    height: 79dvh;
   }
   #intro-Cont > div {
-    height: 74dvh;
+    height: 79dvh;
     padding: 15px;
     font-size: 13px;
   }
