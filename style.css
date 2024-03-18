@@ -392,6 +392,9 @@
     width: 80%;
     height: 45%;
   }
+  #carouselExampleIndicators {
+    height: 80dvh;
+  }
   .carousel-caption {
     font-size: 12px;
   }
