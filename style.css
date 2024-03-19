@@ -300,7 +300,7 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    height: 85dvh;
+    max-height: 85dvh;
     overflow: visible;
   }
   #intro-Heading {
@@ -320,7 +320,7 @@
   }
 
   #cards {
-    height: 224dvh;
+    max-height: 224dvh;
     overflow: visible;
   }
   .row {
@@ -393,7 +393,7 @@
     height: 45%;
   }
   #carouselExampleIndicators {
-    height: 80dvh;
+    max-height: 80dvh;
   }
   .carousel-caption {
     font-size: 12px;
