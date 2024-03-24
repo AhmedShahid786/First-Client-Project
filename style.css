@@ -300,6 +300,7 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
+    min-height: 85dvh;
     max-height: 85dvh;
     overflow: visible;
   }
@@ -320,6 +321,7 @@
   }
 
   #cards {
+    min-height: 224dvh;
     max-height: 224dvh;
     overflow: visible;
   }
@@ -356,6 +358,7 @@
   }
 
   .footcol {
+    min-height: 45dvh;
     max-height: 45dvh;
     line-height: 5dvh;
     font-family: "Roboto Condensed", sans-serif;
@@ -394,6 +397,7 @@
     height: 45%;
   }
   #carouselExampleIndicators {
+    min-height: 80dvh;
     max-height: 80dvh;
   }
   .carousel-caption {
