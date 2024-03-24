@@ -12,6 +12,7 @@
   border: 3px solid white;
   border-left: 0;
   border-right: 0;
+  position: sticky;
 }
 
 #app-parent .nav-link {
@@ -300,8 +301,8 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    min-height: 85vh;
-    max-height: 85vh;
+    min-height: 82vh;
+    max-height: 82vh;
     overflow: visible;
   }
   #intro-Heading {
@@ -309,7 +310,7 @@
     height: 6vh;
   }
   #intro-Cont {
-    height: 79vh;
+    height: 76vh;
   }
   #intro-Cont > div {
     height: 100%;
