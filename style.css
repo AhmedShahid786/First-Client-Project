@@ -300,8 +300,8 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    min-height: 75vh;
-    max-height: 75vh;
+    min-height: 76vh;
+    max-height: 76vh;
     overflow: visible;
   }
   #intro-Heading {
@@ -309,7 +309,7 @@
     height: 6vh;
   }
   #intro-Cont {
-    height: 69vh;
+    height: 70vh;
   }
   #intro-Cont > div {
     height: 100%;
@@ -394,7 +394,7 @@
   }
   .footcol > iframe {
     width: 80%;
-    height: 90%;
+    height: 100%;
   }
   #carouselExampleIndicators {
     min-height: 80vh;
