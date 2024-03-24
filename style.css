@@ -241,7 +241,7 @@
   border-top: 1px solid white;
   background-color: #131212;
   margin: 0px;
-  height: 65dvh;
+  height: 72dvh;
   border: 3px solid white;
   border-left: 0;
   border-right: 0;
@@ -288,7 +288,11 @@
 
 .footcol > iframe {
   width: 80%;
-  height: 80%;
+  height: 65%;
+}
+
+#quick-links {
+  line-height: 13vh;
 }
 
 #reachus img {
@@ -300,8 +304,8 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    min-height: 78vh;
-    max-height: 78vh;
+    min-height: 79vh;
+    max-height: 79vh;
     overflow: visible;
   }
   #intro-Heading {
@@ -309,7 +313,7 @@
     height: 6vh;
   }
   #intro-Cont {
-    height: 72vh;
+    height: 73vh;
   }
   #intro-Cont > div {
     height: 100%;
@@ -394,7 +398,7 @@
   }
   .footcol > iframe {
     width: 80%;
-    height: 100%;
+    height: 120%;
   }
   #carouselExampleIndicators {
     min-height: 80vh;
