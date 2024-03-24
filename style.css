@@ -397,8 +397,9 @@
     margin-right: 5px;
   }
   .footcol > iframe {
+    margin: 0;
     width: 80%;
-    height: 120%;
+    height: 100%;
   }
   #carouselExampleIndicators {
     min-height: 80vh;
