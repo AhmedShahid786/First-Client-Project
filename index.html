@@ -1,4 +1,3 @@
-   
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,49 +26,46 @@
       crossorigin="anonymous"
     ></script>
 
-
-
- <!-- Chat Button -->
- <script>
-  var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?23247';
-  var s = document.createElement('script');
-  s.type = 'text/javascript';
-  s.async = true;
-  s.src = url;
-  var options = {
-  "enabled":true,
-  "chatButtonSetting":{
-      "backgroundColor":"#00e785",
-      "ctaText":"Chat with us",
-      "borderRadius":"25",
-      "marginLeft": "0",
-      "marginRight": "20",
-      "marginBottom": "20",
-      "ctaIconWATI":false,
-      "position":"right"
-  },
-  "brandSetting":{
-      "brandName":"Al-Majeed-Enterprises",
-      "brandSubTitle":"undefined",
-      "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
-      "welcomeText":"Hi there!\nHow can I help you?",
-      "messageText":"Hello, %0A I have a question about {{page_link}}",
-      "backgroundColor":"#00e785",
-      "ctaText":"Chat with us",
-      "borderRadius":"25",
-      "autoShow":false,
-      "phoneNumber":"923352691050"
-  }
-  };
-  s.onload = function() {
-      CreateWhatsappChatWidget(options);
-  };
-  var x = document.getElementsByTagName('script')[0];
-  x.parentNode.insertBefore(s, x);
-</script>
-
-
-
+    <!-- Chat Button -->
+    <script>
+      var url =
+        "https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?23247";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#00e785",
+          ctaText: "Chat with us",
+          borderRadius: "25",
+          marginLeft: "0",
+          marginRight: "20",
+          marginBottom: "20",
+          ctaIconWATI: false,
+          position: "right",
+        },
+        brandSetting: {
+          brandName: "Al-Majeed-Enterprises",
+          brandSubTitle: "undefined",
+          brandImg:
+            "https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+          welcomeText: "Hi there!\nHow can I help you?",
+          messageText: "Hello, %0A I have a question about {{page_link}}",
+          backgroundColor: "#00e785",
+          ctaText: "Chat with us",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "923352691050",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -83,50 +79,55 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body id="app-parent">
     <!-- Navbar -->
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <!-- Navbar Content -->
-        <a href="" class="navbar-brand">Al-Majeed Enterprises</a>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <!-- Navbar Content -->
+      <a href="" class="navbar-brand">Al-Majeed Enterprises</a>
 
-        <!-- Toggle Button -->
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#nav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Toggle Button -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#carouselExampleIndicators" class="nav-link ml=2">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#intro" class="nav-link ml=2">Know Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link ml=2">Our Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#reachus" class="nav-link ml=2">Contact Us</a>
-            </li>
-          </ul>
-          <a href="mailto:lmajeedenterprises01@gmail.com" target="_blank" class="ml-auto" id="apnabutton"><button
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#carouselExampleIndicators" class="nav-link ml=2">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#intro" class="nav-link ml=2">Know Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link ml=2">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reachus" class="nav-link ml=2">Contact Us</a>
+          </li>
+        </ul>
+        <a
+          href="mailto:lmajeedenterprises01@gmail.com"
+          target="_blank"
+          class="ml-auto"
+          id="apnabutton"
+          ><button
             class="btn btn-outline-warning"
             type="button"
             aria-placeholder="Email US"
           >
             Email Us
-          </button></a>
-        </div>
-      </nav>
+          </button></a
+        >
+      </div>
+    </nav>
 
     <!-- Carousel -->
     <div
@@ -148,27 +149,21 @@
           <img src="./Assets/car1.jpg" alt="..." />
           <div class="carousel-caption d-block">
             <h5>Our Job</h5>
-            <p>
-              Building on a long tradition
-            </p>
+            <p>Building on a long tradition</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./Assets/car2.jpg" alt="..." />
           <div class="carousel-caption d-block">
             <h5>Our Moto</h5>
-            <p>
-              Building the future. Restoring the past
-            </p>
+            <p>Building the future. Restoring the past</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./Assets/car3.jpg" alt="..." />
           <div class="carousel-caption d-block">
             <h5>Our Flex</h5>
-            <p>
-              Committed to superior quality and results.
-            </p>
+            <p>Committed to superior quality and results.</p>
           </div>
         </div>
         <a
@@ -189,225 +184,6 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
-    </div>
-
-   
-    </div>
-
-    <!-- Cards -->
-    <div class="fluid" id="cards">
-      <div class="row row-heading">
-        <p class="mt-2" id="services">Our Services</p>
-      </div>
-
-      <div class="row row-md-cols-4 justify-content-around mb-2 ml-1 mr-1">
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/pipes.avif" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Pipes</p>
-            <a href="https://drive.google.com/file/d/1iP7zFlY4lFIixj4yBEiECVABCAf_mie9/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Pipes"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-        </div>
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/flanges.jpg" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Flanges</p>
-            <a href="https://drive.google.com/file/d/1TzBPjbJyoLS7pyj_c8yrr8iaoJ_zCnfw/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Flanges"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/valves.jpg" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Valves</p>
-            <a href="https://drive.google.com/file/d/1_fAPq33HUrDJL0nX5d9etTPP-Lcig_f1/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Valves"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/fittings.jpg" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Fittings</p>
-            <a href="https://drive.google.com/file/d/1n3F15H96boOxFnax1CI7aRib_aq-RD8A/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Fittings"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-      </div>
-
-      <div class="row row-md-cols-4 justify-content-around mb-2 ml-1 mr-1">
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/bolts.jpg" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Boltings</p>
-            <a href="https://drive.google.com/file/d/11QBgt2FVn-m0fggxkUPIRx2momci5v3i/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Email US"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-        
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/gaskets.jpg" alt="">
-          </div>
-          <div class="content">
-            <p class="m-0">Gaskets</p>
-            <a href="https://drive.google.com/file/d/15-EyNSW2xqHI72nk2VBHlZN_UvkmvU3x/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Email US"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/csitems.jpg" alt="">
-          </div>
-          <div class="content CC">
-            <p class="m-0">Consumable Items</p>
-            <a href="https://drive.google.com/file/d/1cm0gWM7_9fSWrrf8_CaqvuIdOORl5JDq/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Consumable Items"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-        <div class="col col-lg-3">
-
-          <div class="border">
-          <div class="img">
-            <img src="./Assets/eitems.jpg" alt="">
-          </div>
-          <div class="content EC">
-            <p class="m-0">Electrical</br>Instrumentation</p>
-            <a href="https://drive.google.com/file/d/1ghnVavzliZwP_VPakPrNFy2U5jQiMafv/view?usp=drive_link" target="_blank"><button
-              class="btn btn-outline-warning m-0"
-              type="button"
-              aria-placeholder="Electrical</br>Instrumentation"
-            >
-              See Details
-            </button></a>
-          </div>
-        </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Footer -->
-    <div class="fluid footer">
-      <div class="row">
-        <div class="col-4 footcol" id="reachus">
-
-          <p>Reach Us:</p>
-
-          <ul>
-            <li><img src="./Assets/phone-solid.svg" alt="">021-32410440-0331-2585336</li>
-            <li><img src="./Assets/phone-solid.svg" alt="">0335-2691050-0321-2780033</li>
-            <li><img src="./Assets/envelope-solid.svg" alt="" id="email">almajeedenterprises01@gmail.com</li>
-            <li><img src="./Assets/location-dot-solid.svg" alt="">F-67 2nd Floor Falak Corporate City, Talpur
-              Road, Boltan Market Karachi, Pakistan</li>
-          </ul>
-
-        </div>
-
-        <div class="col-4 footcol" id="quick-links">
-
-          <p>Quick Links:</p>
-
-          <ul>
-            <li><a href="#carouselExampleIndicators">Home</a></li>
-            <li><a href="#intro">Know Us</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#reachus">Contact Us</a></li>
-          </ul>
-
-        </div>
-
-        <div class="col-4 footcol" id="map">
-
-        <p>Location:</p>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4044388033662!2d67.00169989999999!3d24.8500328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3bee775633%3A0xb22fc359af4e9fe3!2sAl%20Majeed%20Enterprises!5e0!3m2!1sen!2s!4v1710235515766!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-
       </div>
     </div>
 
