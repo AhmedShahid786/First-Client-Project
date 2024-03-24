@@ -403,4 +403,7 @@
   .carousel-caption {
     font-size: 12px;
   }
+  .carousel-item > img {
+    height: 80vh;
+  }
 }
