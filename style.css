@@ -362,8 +362,8 @@
   }
 
   .footcol {
-    min-height: 45vh;
-    max-height: 45vh;
+    min-height: 40vh;
+    max-height: 40vh;
     line-height: 5vh;
     font-family: "Roboto Condensed", sans-serif;
     text-shadow: white 1px 0 10px;
