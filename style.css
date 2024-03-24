@@ -299,13 +299,9 @@
 
 /* Responsives */
 @media only screen and (max-width: 576px) {
-  #app-parent nav {
-    position: sticky;
-  }
-
   #intro {
-    min-height: 76vh;
-    max-height: 76vh;
+    min-height: 74vh;
+    max-height: 74vh;
     overflow: visible;
   }
   #intro-Heading {
@@ -313,7 +309,7 @@
     height: 6vh;
   }
   #intro-Cont {
-    height: 70vh;
+    height: 68vh;
   }
   #intro-Cont > div {
     height: 100%;
