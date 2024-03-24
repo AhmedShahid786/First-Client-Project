@@ -288,7 +288,7 @@
 
 .footcol > iframe {
   width: 80%;
-  height: 60%;
+  height: 80%;
 }
 
 #reachus img {
@@ -300,16 +300,16 @@
 /* Responsives */
 @media only screen and (max-width: 576px) {
   #intro {
-    min-height: 85dvh;
-    max-height: 85dvh;
+    min-height: 85vh;
+    max-height: 85vh;
     overflow: visible;
   }
   #intro-Heading {
     font-size: 25px;
-    height: 6dvh;
+    height: 6vh;
   }
   #intro-Cont {
-    height: 79dvh;
+    height: 79vh;
   }
   #intro-Cont > div {
     height: 100%;
@@ -321,16 +321,16 @@
   }
 
   #cards {
-    min-height: 224dvh;
-    max-height: 224dvh;
+    min-height: 224vh;
+    max-height: 224vh;
     overflow: visible;
   }
   .row {
-    height: 102dvh;
+    height: 102vh;
     margin: 0px;
   }
   .row-heading {
-    height: 20dvh;
+    height: 20vh;
     padding: 0px !important;
   }
   .row-heading p {
@@ -358,9 +358,9 @@
   }
 
   .footcol {
-    min-height: 45dvh;
-    max-height: 45dvh;
-    line-height: 5dvh;
+    min-height: 45vh;
+    max-height: 45vh;
+    line-height: 5vh;
     font-family: "Roboto Condensed", sans-serif;
     text-shadow: white 1px 0 10px;
   }
@@ -382,7 +382,7 @@
     font-size: 7px;
   }
   #quick-links {
-    line-height: 10dvh;
+    line-height: 10vh;
   }
   #quick-links > ul {
     font-size: 14px;
@@ -397,8 +397,8 @@
     height: 45%;
   }
   #carouselExampleIndicators {
-    min-height: 80dvh;
-    max-height: 80dvh;
+    min-height: 80vh;
+    max-height: 80vh;
   }
   .carousel-caption {
     font-size: 12px;
